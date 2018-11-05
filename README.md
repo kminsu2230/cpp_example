@@ -12,3 +12,12 @@
 
      widnow : visual studio / F5
      mac : terminal / ./file(output)
+
+#content
+    
+     print : 출력문
+     plus : 덧셈
+     mult : 곱셈
+     minus : 뺄셈
+     change : 자리변경
+     even : 짝수/홀수
