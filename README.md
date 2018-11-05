@@ -21,3 +21,7 @@
      minus : 뺄셈
      change : 자리변경
      even : 짝수/홀수
+     play_1 : 윷
+     max_1 : 3개중 최대값
+     calc : 계산기
+     leapyear : 윤년
