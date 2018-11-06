@@ -6,6 +6,7 @@
 #compile
      
      window : visual studio 2017 / sublimetext3
+      * window의 경우 배열 동적할당과 컴파일에러로 인해 MinGW를 사용하여 컴파일 후 cmd로 실행
      mac : terminal - g++ -o output_name file.cpp
 
 #debug run
@@ -46,7 +47,7 @@
      24. dicegame : 주사위 게임
      25. binary_1 : 이진수 출력
      26. cardgame : 카드게임
-     27. num_pyramid : 숫자 피라미드 / 일부가 런타임 에러가 떠서 수정필요 * -> 수정완료(window에서 )
+     27. num_pyramid : 숫자 피라미드 / 일부가 런타임 에러가 떠서 수정필요 * -> 수정완료 (window 컴파일)
      28. arr_1 : 값 2개를 입력받아 2차원배열 생성
      29. arr_2 : 값 2개와, 2차원배열값까지 입력받고 생성 후 특정 필드값 출력 
      30. arr_3 : 값 1개를 입력받아, [값][값] 2차원배열을 만들고 수열 형태의 역각직삼각형 출력 
