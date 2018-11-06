@@ -15,8 +15,9 @@
 
 #debug run
 
-     widnow : visual studio / F5
-     mac : terminal / ./file(output)
+     window : visual studio -> F5 
+     window_2 : cmd -> g++ -o output_name file.cpp -> output_name (exe로 생성되어 있음)
+     mac : terminal -> ./file(output)
 
 #error
      
