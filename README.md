@@ -7,7 +7,11 @@
      
      window : visual studio 2017 / sublimetext3
       * window의 경우 배열 동적할당과 컴파일에러로 인해 MinGW를 사용하여 컴파일 후 cmd로 실행
-     mac : terminal - g++ -o output_name file.cpp
+     mac : terminal - g++ -o output_name file.cpp / vim
+
+#copile_etc
+
+     MinGW version 6.3.0
 
 #debug run
 
@@ -51,3 +55,8 @@
      28. arr_1 : 값 2개를 입력받아 2차원배열 생성
      29. arr_2 : 값 2개와, 2차원배열값까지 입력받고 생성 후 특정 필드값 출력 
      30. arr_3 : 값 1개를 입력받아, [값][값] 2차원배열을 만들고 수열 형태의 역각직삼각형 출력 
+
+etc
+
+    23번의 경우 동적할당이 안되서, visual stidio를 버리고 새로 코드를짜서 시간을 잡아먹음 
+    27번의 경우 배열을 고집하다 인터넷을 참고했음 유일하게 어려웟던 문제이며, 고민을 
