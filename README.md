@@ -3,7 +3,7 @@
      c++ 공부를 할때 작성한 파일들이다.
 
 
-#compile
+#compile_os
      
      window : visual studio 2017 / sublimetext3
       * window의 경우 배열 동적할당과 컴파일에러로 인해 MinGW를 사용하여 컴파일 후 cmd로 실행
