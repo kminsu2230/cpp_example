@@ -3,15 +3,21 @@
      c++ 공부를 할때 작성한 파일들이다.
 
 
-#compile
+#compile_os
      
      window : visual studio 2017 / sublimetext3
-     mac : terminal - g++ -o output_name file.cpp
+      * window의 경우 배열 동적할당과 컴파일에러로 인해 MinGW를 사용하여 컴파일 후 cmd로 실행
+     mac : terminal - g++ -o output_name file.cpp / vim
+
+#copile_etc
+
+     MinGW version 6.3.0
 
 #debug run
 
-     widnow : visual studio / F5
-     mac : terminal / ./file(output)
+     window : visual studio -> F5 
+     window_2 : cmd -> g++ -o output_name file.cpp -> output_name (exe로 생성되어 있음)
+     mac : terminal -> ./file(output)
 
 #error
      
@@ -42,11 +48,16 @@
      20. max_2 : 입력받은 여러개의 자연수의 최대값과 위치를 반환
      21. min_1 : 두번째 최소값 찾기
      22. point_ox : ox 게임 
-     23. representnumber : 대표값 찾기 / 예외가 있음으로 수정중 *
+     23. representnumber : 대표값 찾기 / 예외가 있음으로 수정중 * -> 수정완료
      24. dicegame : 주사위 게임
      25. binary_1 : 이진수 출력
      26. cardgame : 카드게임
-     27. num_pyramid : 숫자 피라미드 / 일부가 런타임 에러가 떠서 수정필요 *
+     27. num_pyramid : 숫자 피라미드 / 일부가 런타임 에러가 떠서 수정필요 * -> 수정완료 (window 컴파일)
      28. arr_1 : 값 2개를 입력받아 2차원배열 생성
      29. arr_2 : 값 2개와, 2차원배열값까지 입력받고 생성 후 특정 필드값 출력 
      30. arr_3 : 값 1개를 입력받아, [값][값] 2차원배열을 만들고 수열 형태의 역각직삼각형 출력 
+
+#etc
+
+    23번의 경우 visual stidio에서 배열 동적할당이 안되서 버리고, 다른 컴파일을 다운 후 새로 코드를 짜서 시간을 잡아먹음 (버전 문제인듯)
+    27번의 경우 배열을 고집하다 인터넷을 참고했음 30문제중 유일하게 어려웟던 문제이며, 고민을 많이한 문제 (다시봐도 좋을듯) 
