@@ -9,56 +9,76 @@ int main()
  
     int s;
     cin >> s;
- 
-    int num[10] = { 0,1,2,3,4,5,6,7,8,9 };
-    //{9,8,7,6,5,4,3,2,1}
- 
-    for (int i = 1; i <= n; i++)
+
+    int p=s;
+    for (int i = 0; i < n; i++)
     {
         for (int j = n; i < j; j--)
         {
             cout << " ";
         }
-        if (i % 2 == 0)
-            for (int k = 0; k < (i * 2) - 1; k++)
+        if (i % 2 == 1)
+        {
+            for (int a=0; a<(2*i)+1;a++)
             {
-                if (s > 8)
+                if (p==1)
                 {
-                    cout << num[s];
-                    s = 1;
+                    cout << p;
+                    p = 9;
                 }
                 else
                 {
-                    cout << num[s];
-                    s++;
+                    cout << p;
+                    p++;
+
                 }
- 
-            }
+
+            } 
+        }
         else
         {
-            int temp[100];
-            for (int u = 0; u < (i * 2) - 1; u++)
+            for (int k=0; k<2*i; k++)
             {
- 
-                if (s > 8)
+                 if (p==1)
+                 {
+                     cout <<p;
+                     p=9;
+                 }
+                 else
+                 {
+                     cout <<p;
+                     p++;
+                 }
+            }
+            int t=0;
+            t=p;
+            for (int q=0; q<2*i+1; q++)
+            {
+                cout << p;
+                if (q!=2*i)
                 {
-                    temp[u] = num[s];
-                    s = 1;
-                }
-                else
-                {
-                    temp[u] = num[s];
-                    s++;
+                    if (p==9)
+                    { 
+                        p=1;
+                    }
+                    else
+                    {
+                        p--;
+                    }
                 }
             }
-            for (int q = (i * 2) - 1; q > 0; q--)
+            p=t;
+            if (p==1)
             {
-                cout << temp[q - 1];
+                p=9;
+            }
+            else
+            {
+                p++;
             }
         }
-        cout << "\n";
+        cout <<"\n";
+        p=p-1;
     }
- 
- 
     return 0;
 }
