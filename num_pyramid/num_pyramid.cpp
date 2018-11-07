@@ -10,11 +10,8 @@ int main()
     int s;
     cin >> s;
 
-<<<<<<< HEAD
     int p=s;
-=======
     // n = 반복값
->>>>>>> refs/remotes/origin/master
     for (int i = 0; i < n; i++)
     {
         // n-1로 시작해서 역순으로 공백 생성
@@ -22,70 +19,6 @@ int main()
         {
             cout << " ";
         }
-<<<<<<< HEAD
-        if (i % 2 == 1)
-        {
-            for (int a=0; a<(2*i)+1;a++)
-            {
-                if (p==1)
-                {
-                    cout << p;
-                    p = 9;
-                }
-                else
-                {
-                    cout << p;
-                    p++;
-
-                }
-
-            } 
-        }
-        else
-        {
-            for (int k=0; k<2*i; k++)
-            {
-                 if (p==1)
-                 {
-                     cout <<p;
-                     p=9;
-                 }
-                 else
-                 {
-                     cout <<p;
-                     p++;
-                 }
-            }
-            int t=0;
-            t=p;
-            for (int q=0; q<2*i+1; q++)
-            {
-                cout << p;
-                if (q!=2*i)
-                {
-                    if (p==9)
-                    { 
-                        p=1;
-                    }
-                    else
-                    {
-                        p--;
-                    }
-                }
-            }
-            p=t;
-            if (p==1)
-            {
-                p=9;
-            }
-            else
-            {
-                p++;
-            }
-        }
-        cout <<"\n";
-        p=p-1;
-=======
         // i값이 홀수일때 순서대로 출력 (코딩기준)
         if (i % 2 == 1)
         {
@@ -151,7 +84,6 @@ int main()
         }
         // 줄바꿈
         cout <<"\n";
->>>>>>> refs/remotes/origin/master
     }
     return 0;
 }
